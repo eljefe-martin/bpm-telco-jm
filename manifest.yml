@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: bpm telco jm
+  host: bpm-telco-jm
+  disk_quota: 1024M
+  services:
+  - bpm telco jm-cloudantNoSQLDB
